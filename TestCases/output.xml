@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.6 on win32)" generated="2024-09-21T16:54:20.074837" rpa="false" schemaversion="5">
+<suite id="s1" name="TC1" source="C:\Users\Ankit shivane\PycharmProjects\robo-on-py\TestCases\TC1.robot">
+<test id="s1-t1" name="Login Test" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-09-21T16:54:20.512252" level="INFO">Opening browser 'Chrome' to base url 'https://www.selenium.dev/documentation/webdriver/'.</msg>
+<arg>${URL}</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-09-21T16:54:20.512252" elapsed="6.801590"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-09-21T16:54:27.323578" elapsed="0.104739"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-09-21T16:54:37.429747" level="INFO">Slept 10 seconds.</msg>
+<arg>${WAIT_TIME}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-09-21T16:54:27.429315" elapsed="10.000432"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-09-21T16:54:37.456366" level="INFO">Page title is 'WebDriver | Selenium'.</msg>
+<arg>WebDriver | Selenium</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-09-21T16:54:37.429747" elapsed="0.026619"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-09-21T16:54:37.456366" level="INFO">Clicking link 'Downloads'.</msg>
+<arg>Downloads</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-09-21T16:54:37.456366" elapsed="2.628697"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-09-21T16:54:40.086060" elapsed="2.644105"/>
+</kw>
+<doc>This test case verifies the page title and clicks on the Downloads link.</doc>
+<status status="PASS" start="2024-09-21T16:54:20.511250" elapsed="22.222347"/>
+</test>
+<status status="PASS" start="2024-09-21T16:54:20.078878" elapsed="22.657380"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TC1">TC1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
